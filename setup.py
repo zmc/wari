@@ -15,7 +15,7 @@ setup(
     author_email     = 'contact [at] deza.pe',
     version          = metadata['version'],
     url              = 'http://github.com/alfredodeza/wari',
-    scripts          = ['bin/wari'],
+    entry_points     = dict(console_scripts=['wari = wari.main:main']),
     license          = "MIT",
     zip_safe         = False,
     keywords         = "otp, one time password, cli, manager",

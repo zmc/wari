@@ -58,3 +58,11 @@ totp                 Subcommand to interact with time based tokens (TOTP)
         parser.catches_help()
         parser.catches_version()
         conn.close()
+
+
+def main():
+    wari = Wari()
+
+
+if __name__ == '__main__':
+    main()
